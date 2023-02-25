@@ -9,7 +9,7 @@ public class IrctcLogs {
 		Logger log = Logger.getLogger(pClass);
 		
 		// we can have log4j.xml or log4j.properties files for configuration
-		//PropertyConfigurator.configure("D:\\projects\\org-irctc-testng\\src\\test\\resources\\log4j.properties");
+		PropertyConfigurator.configure("D:\\projects\\org-irctc-testng\\src\\test\\resources\\log4j.properties");
 		
 		return log;
 	}

@@ -2,23 +2,56 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T12:02:03 IST" name="irctc suite" finished-at="2023-02-21T12:02:15 IST" duration-ms="12195">
+  <suite started-at="2023-02-25T16:04:48 IST" name="irctc suite" finished-at="2023-02-25T16:05:23 IST" duration-ms="34709">
     <groups>
     </groups>
-    <test started-at="2023-02-21T12:02:03 IST" name="validating train schedule test case" finished-at="2023-02-21T12:02:15 IST" duration-ms="12195">
+    <test started-at="2023-02-25T16:04:48 IST" name="validating train schedule test case" finished-at="2023-02-25T16:05:23 IST" duration-ms="34709">
       <class name="org.irctc.validatestation.ValidateStationAndArrivalTime">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTime@18df8434]" started-at="2023-02-21T12:02:03 IST" name="setup" finished-at="2023-02-21T12:02:15 IST" duration-ms="11942" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTime@38cee291]" started-at="2023-02-25T16:04:48 IST" name="setup" finished-at="2023-02-25T16:05:05 IST" duration-ms="16840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="vlaidateStationAndArrivalTime()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTime@18df8434]" started-at="2023-02-21T12:02:15 IST" name="vlaidateStationAndArrivalTime" finished-at="2023-02-21T12:02:15 IST" duration-ms="47" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="vlaidateStationAndArrivalTime()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTime@38cee291]" started-at="2023-02-25T16:05:05 IST" name="vlaidateStationAndArrivalTime" finished-at="2023-02-25T16:05:23 IST" duration-ms="17795" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "this.log" is null]]>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-JF3CUIR', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3097fa5232b85c426ee9053fc700534b, getElementText {id=0a052eed-668c-4d9e-a8d0-7bde882fe633}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56903/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3097fa5232b85c426ee9053fc700534b)] -> xpath: //table[@class='table']//td]
+Session ID: 3097fa5232b85c426ee9053fc700534b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "this.log" is null
-at org.irctc.validatestation.ValidateStationAndArrivalTime.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTime.java:31)
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-JF3CUIR', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3097fa5232b85c426ee9053fc700534b, getElementText {id=0a052eed-668c-4d9e-a8d0-7bde882fe633}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56903/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3097fa5232b85c426ee9053fc700534b)] -> xpath: //table[@class='table']//td]
+Session ID: 3097fa5232b85c426ee9053fc700534b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+at org.irctc.pageobjects.TrainSchedulePageObject.verifyStationNameAndArrivalTime(TrainSchedulePageObject.java:35)
+at org.irctc.validatestation.ValidateStationAndArrivalTime.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTime.java:59)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,7 +82,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vlaidateStationAndArrivalTime -->
