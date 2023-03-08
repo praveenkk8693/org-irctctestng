@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="false" name="irctc suite">
 <test name="validating train schedule test case">
 <classes>
-<class name="org.irctc.validatestation.ValidateStationAndArrivalTime"/>
+<class name="org.irctc.validatestation.ValidateStationAndArrivalTimeTest"/>
 </classes>
 </test>
 

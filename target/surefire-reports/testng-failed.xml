@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [irctc suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="validating train schedule test case(failed)" verbose="0">
+    <classes>
+      <class name="org.irctc.validatestation.ValidateStationAndArrivalTimeTest">
+        <methods>
+          <include name="vlaidateStationAndArrivalTime"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.irctc.validatestation.ValidateStationAndArrivalTimeTest -->
+    </classes>
+  </test> <!-- validating train schedule test case(failed) -->
+</suite> <!-- Failed suite [irctc suite] -->

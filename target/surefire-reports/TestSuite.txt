@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.687 s <<< FAILURE! - in TestSuite
+vlaidateStationAndArrivalTime(org.irctc.validatestation.ValidateStationAndArrivalTimeTest)  Time elapsed: 10.724 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-JF3CUIR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53b04ff60058a9f7e5a39bf2156a5e5b, clickElement {id=fc445858-f34a-49bb-baf6-f7d0cf16ba49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (53b04ff60058a9f7e5a39bf2156a5e5b)] -> xpath: //a[@class='ui-datepicker-next ui-corner-all ng-tns-c58-10 ng-star-inserted']]
+Session ID: 53b04ff60058a9f7e5a39bf2156a5e5b
+	at org.irctc.validatestation.ValidateStationAndArrivalTimeTest.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTimeTest.java:49)
+

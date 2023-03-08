@@ -15,7 +15,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class ValidateStationAndArrivalTime {
+public class ValidateStationAndArrivalTimeTest {
 	
 	WebDriver driver;
 	Logger log;
@@ -40,7 +40,7 @@ public class ValidateStationAndArrivalTime {
 	@Test
 	public void vlaidateStationAndArrivalTime() throws InterruptedException {
 		System.out.println("starting test ......");
-		log =IrctcLogs.irctclLogger(ValidateStationAndArrivalTime.class);
+		log =IrctcLogs.irctclLogger(ValidateStationAndArrivalTimeTest.class);
 		log.info("starting validating station and time..");
 		LandingPageObject landingPageObject = new LandingPageObject(driver);
 	

@@ -9,20 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">irctc suite</th></tr>
-<tr><td><a href="#t0">validating train schedule test case</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">34,709</td><td></td><td></td></tr>
+<tr><td><a href="#t0">validating train schedule test case</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,438</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">irctc suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">validating train schedule test case &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.irctc.validatestation.ValidateStationAndArrivalTime</td><td><a href="#m0">vlaidateStationAndArrivalTime</a></td><td rowspan="1">1677321305476</td><td rowspan="1">17795</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">irctc suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">validating train schedule test case &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.irctc.validatestation.ValidateStationAndArrivalTime</td><td><a href="#m0">vlaidateStationAndArrivalTime</a></td><td rowspan="1">1678261481690</td><td rowspan="1">25</td></tr></tbody>
 </table>
-<h2>validating train schedule test case</h2><h3 id="m0">org.irctc.validatestation.ValidateStationAndArrivalTime#vlaidateStationAndArrivalTime</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=110.0.5481.105)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+<h2>validating train schedule test case</h2><h3 id="m0">org.irctc.validatestation.ValidateStationAndArrivalTime#vlaidateStationAndArrivalTime</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;DESKTOP-JF3CUIR&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+System info: host: &apos;DESKTOP-JF3CUIR&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3097fa5232b85c426ee9053fc700534b, getElementText {id=0a052eed-668c-4d9e-a8d0-7bde882fe633}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56903/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (3097fa5232b85c426ee9053fc700534b)] -&gt; xpath: //table[@class=&apos;table&apos;]//td]
-Session ID: 3097fa5232b85c426ee9053fc700534b
+Command: [9f9bde73b91c48736709e5321357970c, findElement {using=xpath, value=//span[@class=&apos;ng-tns-c57-8 ui-autocomplete ui-widget&apos;]/child::input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64720/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f9bde73b91c48736709e5321357970c
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -30,10 +29,12 @@ Session ID: 3097fa5232b85c426ee9053fc700534b
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
-	at org.irctc.pageobjects.TrainSchedulePageObject.verifyStationNameAndArrivalTime(TrainSchedulePageObject.java:35)
-	at org.irctc.validatestation.ValidateStationAndArrivalTime.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTime.java:59)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.irctc.pageobjects.LandingPageObject.enterFromStation(LandingPageObject.java:39)
+	at org.irctc.validatestation.ValidateStationAndArrivalTime.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTime.java:47)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

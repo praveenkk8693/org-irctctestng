@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T13:14:34 IST" name="irctc suite" finished-at="2023-03-08T13:14:41 IST" duration-ms="7438">
+  <suite started-at="2023-03-08T17:48:39 IST" name="irctc suite" finished-at="2023-03-08T17:49:00 IST" duration-ms="21650">
     <groups>
     </groups>
-    <test started-at="2023-03-08T13:14:34 IST" name="validating train schedule test case" finished-at="2023-03-08T13:14:41 IST" duration-ms="7438">
-      <class name="org.irctc.validatestation.ValidateStationAndArrivalTime">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTime@38cee291]" started-at="2023-03-08T13:14:34 IST" name="setup" finished-at="2023-03-08T13:14:41 IST" duration-ms="7378" status="PASS">
+    <test started-at="2023-03-08T17:48:39 IST" name="validating train schedule test case" finished-at="2023-03-08T17:49:00 IST" duration-ms="21650">
+      <class name="org.irctc.validatestation.ValidateStationAndArrivalTimeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTimeTest@6a84a97d]" started-at="2023-03-08T17:48:39 IST" name="setup" finished-at="2023-03-08T17:48:50 IST" duration-ms="10835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="vlaidateStationAndArrivalTime()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTime@38cee291]" started-at="2023-03-08T13:14:41 IST" name="vlaidateStationAndArrivalTime" finished-at="2023-03-08T13:14:41 IST" duration-ms="25" status="FAIL">
+        <test-method signature="vlaidateStationAndArrivalTime()[pri:0, instance:org.irctc.validatestation.ValidateStationAndArrivalTimeTest@6a84a97d]" started-at="2023-03-08T17:48:50 IST" name="vlaidateStationAndArrivalTime" finished-at="2023-03-08T17:49:00 IST" duration-ms="10697" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -20,9 +20,10 @@ from unknown error: web view not found
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-JF3CUIR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f9bde73b91c48736709e5321357970c, findElement {using=xpath, value=//span[@class='ng-tns-c57-8 ui-autocomplete ui-widget']/child::input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64720/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f9bde73b91c48736709e5321357970c]]>
+Command: [53b04ff60058a9f7e5a39bf2156a5e5b, clickElement {id=fc445858-f34a-49bb-baf6-f7d0cf16ba49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (53b04ff60058a9f7e5a39bf2156a5e5b)] -> xpath: //a[@class='ui-datepicker-next ui-corner-all ng-tns-c58-10 ng-star-inserted']]
+Session ID: 53b04ff60058a9f7e5a39bf2156a5e5b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -31,9 +32,10 @@ from unknown error: web view not found
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-JF3CUIR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9f9bde73b91c48736709e5321357970c, findElement {using=xpath, value=//span[@class='ng-tns-c57-8 ui-autocomplete ui-widget']/child::input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64720/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f9bde73b91c48736709e5321357970c
+Command: [53b04ff60058a9f7e5a39bf2156a5e5b, clickElement {id=fc445858-f34a-49bb-baf6-f7d0cf16ba49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54281/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (53b04ff60058a9f7e5a39bf2156a5e5b)] -> xpath: //a[@class='ui-datepicker-next ui-corner-all ng-tns-c58-10 ng-star-inserted']]
+Session ID: 53b04ff60058a9f7e5a39bf2156a5e5b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -46,12 +48,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.irctc.pageobjects.LandingPageObject.enterFromStation(LandingPageObject.java:39)
-at org.irctc.validatestation.ValidateStationAndArrivalTime.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTime.java:47)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at org.irctc.pageobjects.LandingPageObject.selectTravelDate(LandingPageObject.java:65)
+at org.irctc.validatestation.ValidateStationAndArrivalTimeTest.vlaidateStationAndArrivalTime(ValidateStationAndArrivalTimeTest.java:49)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,16 +77,19 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vlaidateStationAndArrivalTime -->
-      </class> <!-- org.irctc.validatestation.ValidateStationAndArrivalTime -->
+      </class> <!-- org.irctc.validatestation.ValidateStationAndArrivalTimeTest -->
     </test> <!-- validating train schedule test case -->
   </suite> <!-- irctc suite -->
 </testng-results>
